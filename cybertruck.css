@@ -1,0 +1,58 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+body {
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    background-repeat: no-repeat;
+    height: 10vh;
+    width: 10vh;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.main p{color: white;font-size: 50px;text-align: center;    font-family: 'Orbitron', sans-serif;text-transform: uppercase;}
+.slogan{padding-left:360px;padding-right:300px;display:  flex;justify-content: center;align-items: center;}
+.slogan p {
+    color: rgb(255, 255, 255);
+    font-family: 'Orbitron', sans-serif;
+    margin: 0px;
+    font-size: 20px;
+    white-space:nowrap;
+  overflow:hidden;
+  animation:typing 4s steps(22,end) forwards,
+            blink 1s infinite;
+            white-space: nowrap;
+
+   
+}
+@keyframes typing {
+    0% { width:0% }
+    100% { width:100% }
+  }
+  @keyframes blink {
+    0%,100% {
+      border-right:2px solid transparent;
+    }
+    50% {
+      border-right:2px solid #ffffff;
+    }
+  } 
+.buttons{margin-top: 380px;margin-left: 550px;}
+.buttons button{height: 29px;
+    width: 196px;
+    border-radius: 5px;
+border: none;
+font-family:  'Orbitron', sans-serif;
+
+}
+.btn:hover{background-color:rgb(0, 0, 0);transition: 0.4s ease;color:rgb(255, 255, 255);margin-bottom: 10px;}
+#inventory{margin-right: 40px;}

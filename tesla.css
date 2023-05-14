@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+
+body {
+    background-size: cover;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo img {
+    background-repeat: no-repeat;
+    height: 6vh;
+    width: 6vh;
+    
+    margin-left: 10px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  padding: 0px;  
+    height: 10vh;
+    width: 100wh;
+    background-color:grey;
+    
+}
+
+.list {
+    margin-left: 100px;
+
+}
+
+.list ul {
+    list-style: none;
+    display: flex;
+    color: white;
+}
+
+.list ul li {
+    padding-left: 50px;
+    font-size: 30px;
+    font-family:  'Orbitron', sans-serif;
+
+
+    font-weight: 500;
+
+}
+
+.list1 {
+    margin-right: 30px;
+    
+
+}
+
+.list1 ul {
+    list-style: none;
+    display: flex;
+    color: white;
+}
+
+.list1 ul li {
+    font-size: 30px;
+    padding: 10px;
+    font-family:  'Orbitron', sans-serif;
+
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 200px;
+}
+
+.center p {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .25em;
+}
+
+.low {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.low button {
+    height: 29px;
+    width: 196px;
+    border-radius: 5px;
+border: none;
+box-shadow: 0px 0px 0px 2px rgb(0, 0, 0);
+   font-family:  'Orbitron', sans-serif;;
+}
+
+#view {
+    margin-right: 60px;
+}
+
+.btn:hover {
+    background-color: rgb(0, 0, 0);transition: 0.5s;color: white;
+}
+a{text-decoration: none;color: white;}
